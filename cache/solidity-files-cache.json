@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/jansofta/Documents/GitHub/hello-hardhat/contracts/MyContract.sol": {
-      "lastModificationDate": 1716861247684,
-      "contentHash": "953d8739cec41c96a2b00cbd3312fdee",
+      "lastModificationDate": 1716944444713,
+      "contentHash": "3739af80d4e0fdef8e7923c19fad1a15",
       "sourceName": "contracts/MyContract.sol",
       "solcConfig": {
         "version": "0.8.24",
@@ -30,10 +30,11 @@
         }
       },
       "imports": [
-        "@openzeppelin/contracts/token/ERC721/ERC721.sol"
+        "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+        "hardhat/console.sol"
       ],
       "versionPragmas": [
-        "^0.8.24"
+        "^0.8.19"
       ],
       "artifacts": [
         "MyContract"
@@ -452,6 +453,42 @@
       ],
       "artifacts": [
         "SignedMath"
+      ]
+    },
+    "/Users/jansofta/Documents/GitHub/hello-hardhat/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1716859178454,
+      "contentHash": "896f68942c3a20e9ae3c3c5bfd3add54",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
       ]
     }
   }
